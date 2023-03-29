@@ -8,10 +8,10 @@
   <Files>
     <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
     <File fileId="11" filename="$data/shared/assets/assetLibraryStickers_diffuse.dds"/>
-    <File fileId="14" filename="$data/shared/assets/reflectors/lizard/reflectors_normal.dds"/>
-    <File fileId="15" filename="$data/shared/assets/reflectors/lizard/reflectors_vmask.dds"/>
-    <File fileId="10" filename="$data/shared/default_normal.png"/>
-    <File fileId="12" filename="Textures/EDGERollerDecals_specular.dds"/>
+    <File fileId="15" filename="$data/shared/assets/reflectors/lizard/reflectors_normal.dds"/>
+    <File fileId="16" filename="$data/shared/assets/reflectors/lizard/reflectors_vmask.dds"/>
+    <File fileId="12" filename="$data/shared/default_normal.png"/>
+    <File fileId="13" filename="Textures/EDGERollerDecals_specular.dds"/>
     <File fileId="1" filename="Textures/EDGE_Roller_Lite_normal.dds"/>
     <File fileId="2" filename="Textures/EDGE_Roller_Lite_specular.dds"/>
     <File fileId="7" filename="Textures/decals_diffuse.dds"/>
@@ -23,8 +23,8 @@
   <Materials>
     <Material name="assetLibraryStickers_mat" materialId="4" customShaderId="3" customShaderVariation="Decal">
       <Texture fileId="11"/>
-      <Normalmap fileId="10"/>
-      <Glossmap fileId="12"/>
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
       <CustomParameter name="RDT" value="1 1 0 0"/>
       <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
     </Material>
@@ -37,7 +37,7 @@
     </Material>
     <Material name="EDGE_Roller" materialId="6">
     </Material>
-    <Material name="EDGE_Roller_mat" materialId="7" customShaderId="3" customShaderVariation="colorMask">
+    <Material name="EDGE_Roller_mat" materialId="7" customShaderId="3" diffuseColor="0 0 0 1" customShaderVariation="colorMask">
       <Normalmap fileId="1"/>
       <Glossmap fileId="2"/>
       <CustomParameter name="RDT" value="0 0 0 0"/>
@@ -51,7 +51,7 @@
       <CustomParameter name="colorMat6" value="1 0.5 0.5 1"/>
       <CustomParameter name="colorMat7" value="1 0.5 0.5 1"/>
     </Material>
-    <Material name="hose_mat" materialId="8" customShaderId="3" customShaderVariation="colorMask">
+    <Material name="hose_mat" materialId="8" customShaderId="3" diffuseColor="0 0 0 1" customShaderVariation="colorMask">
       <Normalmap fileId="1" bumpDepth="0.1"/>
       <Glossmap fileId="2"/>
       <CustomParameter name="RDT" value="0 0 0 0"/>
@@ -66,8 +66,8 @@
       <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
     </Material>
     <Material name="reflectors_mat" materialId="9" diffuseColor="1 1 1 1" customShaderId="3" customShaderVariation="reflector_colorMask">
-      <Normalmap fileId="14"/>
-      <Glossmap fileId="15"/>
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
       <CustomParameter name="RDT" value="0 0 0 0"/>
       <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
       <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
@@ -79,8 +79,7 @@
       <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
       <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
     </Material>
-    <Material name="soil_mat" materialId="10">
-      <Normalmap fileId="10"/>
+    <Material name="soil_mat" materialId="10" diffuseColor="0.494118 1 0.494118 1">
     </Material>
   </Materials>
 
@@ -283,7 +282,7 @@
           </Shape>
         </TransformGroup>
         <TransformGroup name="remoteControl" translation="-9.99201e-16 0 0" nodeId="226">
-          <Camera name="persp" translation="0.198084 4.02298 -4.95797" rotation="146.368 -0.323611 -180" visibility="false" nodeId="227" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+          <Camera name="persp" translation="0.194557 4.43837 -5.58242" rotation="149.233 1.10878 180" visibility="false" nodeId="227" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
           <TransformGroup name="exitPoint" translation="-2.5 0 1" nodeId="228"/>
           <TransformGroup name="cameraRot" translation="9.99201e-16 0.925 0" rotation="156 -0 -180" nodeId="229">
             <Camera name="camera" translation="0 0 8" nodeId="230" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>

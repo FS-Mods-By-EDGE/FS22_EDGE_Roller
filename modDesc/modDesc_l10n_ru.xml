@@ -4,8 +4,6 @@
 	<texts>
         <text name="configuration_Design"		text="подробность покрашенный"/>
         <text name="configuration_Painted"		text="покрашенный"/>
-        <text name="action_foldWARNING"			text="складка Предупреждающие знаки"/>
-        <text name="action_unfoldWARNING"		text="Открываются Предупреждающие знаки"/>
         <text name="configuration_warningSigns"	text="Предупреждающие знаки"/>
         <text name="config_warningSigns"		text="Складные предупреждающие знаки"/>
         <text name="config_noWarningSigns"		text="Нет предупреждающих знаков"/>

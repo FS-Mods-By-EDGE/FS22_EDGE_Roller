@@ -4,8 +4,6 @@
 	<texts>
         <text name="configuration_Design"		text="Detalle Pintada"/>
         <text name="configuration_Painted"		text="Pintada"/>
-        <text name="action_foldWARNING"			text="Doblez Señales de advertencia"/>
-        <text name="action_unfoldWARNING"		text="Desplegar Señales de advertencia"/>
         <text name="configuration_warningSigns"	text="Señales de advertencia"/>
         <text name="config_warningSigns"		text="Señales de advertencia plegables"/>
         <text name="config_noWarningSigns"		text="No hay señales de advertencia"/>

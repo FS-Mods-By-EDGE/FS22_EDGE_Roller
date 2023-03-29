@@ -160,7 +160,7 @@ Størrelse: 3 x 1,5 meter.
 Vekt: 1580 kg
 Arbeidsbredde: 3 meter.
 Maks. arbeidshastighet: 17 km/t
-Nødvendig effekt: 40 hk+
+Nødvendig motor effekt: 40 hk+
 
 Feltrulle M:
 Pris: 6.900 €
@@ -168,7 +168,7 @@ Størrelse: 4 x 1,5 meter.
 Vekt: 1980 kg
 Arbeidsbredde: 4 meter.
 Maks. arbeidshastighet: 17 km/t
-Nødvendig effekt: 50 hk+
+Nødvendig motor effekt: 50 hk+
 
 Feltrulle L:
 Pris: 8.900 €
@@ -176,7 +176,7 @@ Størrelse: 6 x 1,5 meter.
 Vekt: 2580 kg
 Arbeidsbredde: 6 meter.
 Maks. arbeidshastighet: 17 km/t
-Nødvendig effekt: 60 hk+]]></no>
+Nødvendig motor effekt: 60 hk+]]></no>
 
         <pl><![CDATA[Walce do wszystkich prac polowych, dostępne jako zwykły walec polowy i jako walec do użytków zielonych, można ich również używać do czyszczenia gospodarstwa.
 Dokładny i łatwy w obsłudze 3-punktowy zaczep. Są również zdalnie sterowane, jeśli kiedykolwiek chcesz je przenieść bez ciągnika.
@@ -327,6 +327,26 @@ Wymagana moc: 60 KM+]]></pl>
 			<no>6 Meter</no>
             <pl>6 Metry</pl>
             <ru>6 Mетра</ru>
+		</text>
+		<text name="action_foldWARNING">
+			<en>Fold Warning Signs</en>
+			<de>Warnschilder einklappen</de>
+            <es>Doblez Señales de advertencia</es>
+			<fr>Plier signe d'avertissement</fr>
+            <it>Piega Segnali di avvertimento</it>
+			<no>Legg Ned Varsel Skilt</no>
+            <pl>Zagięcie Znaki ostrzegawcze</pl>
+            <ru>складка Предупреждающие знаки</ru>
+		</text>
+		<text name="action_unfoldWARNING">
+			<en>Unfold Warning Signs</en>
+			<de>Warnschilder ausklappen</de>
+            <es>Desplegar Señales de advertencia</es>
+			<fr>Se dérouler signe d'avertissement</fr>
+            <it>Svelare Segnali di avvertimento</it>
+			<no>Vis Varsel Skilt</no>
+            <pl>Rozwijać sięv Znaki ostrzegawcze</pl>
+            <ru>Открываются Предупреждающие знаки</ru>
 		</text>
 	</l10n>
 	<brands>

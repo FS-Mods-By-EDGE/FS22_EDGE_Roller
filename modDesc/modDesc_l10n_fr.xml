@@ -4,8 +4,6 @@
 	<texts>
         <text name="configuration_Design"		text="Détail Peinte"/>
         <text name="configuration_Painted"		text="Peinte"/>
-        <text name="action_foldWARNING"			text="Plier signe d'avertissement"/>
-        <text name="action_unfoldWARNING"		text="Se dérouler signe d'avertissement"/>
         <text name="configuration_warningSigns"	text="signe d'avertissement"/>
         <text name="config_warningSigns"		text="Panneaux d'avertissement pliables"/>
         <text name="config_noWarningSigns"		text="Aucun signe d'avertissement"/>

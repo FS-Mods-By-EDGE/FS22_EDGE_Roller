@@ -4,8 +4,6 @@
 	<texts>
         <text name="configuration_Design"		text="Szczegół Namalowany"/>
         <text name="configuration_Painted"		text="Namalowany"/>
-        <text name="action_foldWARNING"			text="Zagięcie Znaki ostrzegawcze"/>
-        <text name="action_unfoldWARNING"		text="Rozwijać sięv Znaki ostrzegawcze"/>
         <text name="configuration_warningSigns"	text="Znaki ostrzegawcze"/>
         <text name="config_warningSigns"		text="Składane znaki ostrzegawcze"/>
         <text name="config_noWarningSigns"		text="Brak znaków ostrzegawczych"/>

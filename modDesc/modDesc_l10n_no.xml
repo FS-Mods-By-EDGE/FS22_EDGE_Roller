@@ -16,9 +16,9 @@
         <text name="config_attacherPaint"		text="Standard Painted"/>
         <text name="configuration_drum"			text="Trommel"/>
         <text name="config_customDrum"			text="Design"/>
-        <text name="config_liteDrum"			text="Lite"/>
-        <text name="config_proDrum"				text="Pro"/>
-        <text name="config_roughDrum"			text="Grow"/>
+        <text name="config_liteDrum"			text="Standard"/>
+        <text name="config_proDrum"				text="Proff"/>
+        <text name="config_roughDrum"			text="Grov"/>
         <text name="config_lights"				text="Lys"/>
         <text name="config_beacon"				text="Varsel Lys"/>
         <text name="config_work"				text="Arbeids Lys"/>

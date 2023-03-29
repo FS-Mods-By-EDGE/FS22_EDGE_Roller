@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="47">
+<modDesc descVersion="73">
     <author>Edge Gaming</author>
     <version>2.0.0.0</version>
     <title>
         <en>EDGE Field Roller</en>
         <de>EDGE Feldwalze</de>
-        <fr>EDGE Rouleau De Terrain</fr>
         <es>Rodillo De Campo EDGE</es>
-        <ru>Полевой Kаток EDGE</ru>
-        <pl>Wałek Polowy EDGE</pl>
+        <fr>EDGE Rouleau De Terrain</fr>
         <it>EDGE Rullo Di Campo</it>
+        <no>EDGE Jordbruks Trommel</no>
+        <pl>Wałek Polowy EDGE</pl>
+        <ru>Полевой Kаток EDGE</ru>
     </title>
     <description>
-        <en><![CDATA[Rollers for removing fields and making your farm clean, they can also be used to remove snow.
+        <en><![CDATA[Rollers for all your Field Work, Available in normal Field Roller and as Grassland Roller, you can also use them to clean your farm.
 Accurate and easy to use 3-point attacher. They are also remote controlled, if you ever need to move them without a tractor.
 
 --Technical Info--
@@ -38,27 +39,9 @@ Size: 6 x 1.5 Meters.
 Weight: 2580kg
 Working width: 6 Meters.
 Max. working speed: 17 kph
-Required power: 60 hp+
+Required power: 60 hp+]]></en>
 
-- Supports "Seasons" and "Courseplay Six".
-
-Changelog 1.0.0.0:
-- Added 6m Option
-- Changed it to a single item with size options
-- Added l10n for names++
-Changelog 1.5.0.0:
-- Updated the mod with more languages.
-Changelog 2.0.0.0:
-- Created new 3D object, and put it in seperate model so that the old one is still available.
-- Loads of new design stuff added.
-- Added lights & warning signs.
-- Created loads of configuration options.
-- Added Italian translation.
-- New drums & with separate color choice.
-- New store photos & mod icon.
-- Fixed a few misplaced UVs on the old model.]]></en>
-
-<de><![CDATA[Walzen zum entfernen von Feldern die z.B. falsch angelegt wurden sowie zum Schneeräumen (Seasons).
+<de><![CDATA[Walzen für all Ihre Feldarbeiten. Erhältlich als normale Feldwalze und als Grünlandwalze, können Sie sie auch zum Reinigen Ihres Hofes verwenden.
 Einfach zu bedienender 3-Punkt-Anbau. Sie sind auch ferngesteuert, falls Sie sie einmal ohne Traktor bewegen müssen.
 
 Feldwalze S:
@@ -83,71 +66,9 @@ Größe: 6 x 1.5 Meter.
 Gewicht: 2580kg
 Arbeitsbreite: 6 Meter.
 Arbeitsgeschwindigkeit: 17 km/h
-Benötigte Leistung: 60 PS+
+Benötigte Leistung: 60 PS+]]></de>
 
-- Unterstützt "Seasons" und "Courseplay Six".
-
-Änderungsprotokoll 1.0.0.0:
-- 6m Option hinzugefügt
-- Es wurde in ein einzelnes Element mit Größenoptionen geändert
-- l10n für Namen ++ hinzugefügt
-Änderungsprotokoll 1.5.0.0:
-- Der Mod wurde mit mehr Sprachen aktualisiert.
-Änderungsprotokoll 2.0.0.0:
-- Neues 3D-Objekt erstellt und in ein separates Modell eingefügt, sodass das alte noch verfügbar ist.
-- Viele neue Design-Sachen hinzugefügt.
-- Lichter und Warnschilder hinzugefügt.
-- Viele Konfigurationsoptionen erstellt.
-- Italienische Übersetzung hinzugefügt.
-- Neue Trommeln & mit separater Farbauswahl.
-- Neues Store Fotos & Mod Symbol.
-- Einige falsch platzierte UV-Strahlen am alten Modell wurden behoben.]]></de>
-
-        <fr><![CDATA[Des rouleaux pour enlever les champs et rendre votre ferme propre, ils peuvent également être utilisés pour enlever la neige.
-Fixateur 3 points précis et facile à utiliser. Ils sont également télécommandés si vous devez les déplacer sans tracteur.
-
-Rouleau De Terrain S:
-Prix: 4.900€
-Taille: 3 x 1.5 mètres.
-Poids: 1580kg
-Largeur de travail: 3 mètres.
-Vitesse de travail: 17 km/h
-Puissance requise: 40 ch+
-
-Rouleau De Terrain M:
-Prix: 6.900€
-Taille: 4 x 1.5 mètres.
-Poids: 1980kg
-Largeur de travail: 4 mètres.
-Vitesse de travail: 17 km/h
-Puissance requise: 50 ch+
-
-Rouleau De Terrain L:
-Prix: 8.900€
-Taille: 6 x 1.5 mètres.
-Poids: 2580kg
-Largeur de travail: 6 mètres.
-Vitesse de travail: 17 km/h
-Puissance requise: 60 ch+
-
-- Supporte "Seasons" et "Courseplay Six".
-
-Changer le journal 1.0.0.0:
-- Option 6m ajoutée
-- Changé en un seul élément avec des options de taille
-- Ajout de l10n pour les noms ++
-Changer le journal 1.5.0.0:
-- Mise à jour du mod avec plus de langues.
-Changer le journal 2.0.0.0:
-- Création d'un nouvel objet 3D, et mise en modèle séparé pour que l'ancien soit toujours disponible.
-- Beaucoup de nouveaux éléments de conception ajoutés.
-- Lumières et panneaux d'avertissement ajoutés.
-- Création de nombreuses options de configuration.
-- Ajout de la traduction italienne.
-- Nouveaux tambours et avec choix de couleur séparé.
-- Nouvelles photos de magasin et icône de mod.
-- Correction de quelques UV mal placés sur l'ancien modèle.]]></fr>
-        <es><![CDATA[Rodillos para quitar campos y limpiar su granja, también se pueden usar para quitar nieve.
+        <es><![CDATA[Rodillos para todos tus Trabajos de Campo, Disponibles en Rodillo de Campo normal y como Rodillo de Pasto, también puedes usarlos para limpiar tu finca.
 Atacante de 3 puntos preciso y fácil de usar. También están controlados a distancia, si alguna vez necesita moverlos sin un tractor.
 
 Rodillo de campo S:
@@ -172,114 +93,36 @@ Tamaño: 6 x 1,5 metros.
 Peso: 2580kg.
 Anchura de trabajo: 6 metros.
 Max. velocidad de trabajo: 17 kph
-Potencia requerida: 60 hp+
+Potencia requerida: 60 hp+]]></es>
 
-- Admite "Seasons" y "Courseplay Six".
+        <fr><![CDATA[Des rouleaux pour tous vos travaux de terrain, disponibles en rouleau de terrain normal et en rouleau de prairie, vous pouvez également les utiliser pour nettoyer votre ferme.
+Fixateur 3 points précis et facile à utiliser. Ils sont également télécommandés si vous devez les déplacer sans tracteur.
 
-Registro de cambios 1.0.0.0:
-- Opción agregada de 6 m
-- Lo cambié a un solo elemento con opciones de tamaño
-- Se agregó l10n para nombres ++
-Registro de cambios 1.5.0.0:
-- Actualizado el mod con más idiomas.
-Registro de cambios 2.0.0.0:
-- Creé un nuevo objeto 3D y lo puse en un modelo separado para que el antiguo todavía esté disponible.
-- Se agregaron montones de cosas nuevas de diseño.
-- Se agregaron luces y señales de advertencia.
-- Se crearon muchas opciones de configuración.
-- Añadida traducción al italiano.
-- Nuevos tambores y con opción de color por separado.
-- Nuevas fotos de la tienda e ícono de mod.
-- Se corrigieron algunos UV mal ubicados en el modelo anterior.]]></es>
-        <ru><![CDATA[Ролики для уборки полей и очистки вашей фермы, их также можно использовать для уборки снега.
-Точный и простой в использовании 3-х точечный атакующий. Они также имеют дистанционное управление, если вам когда-либо понадобится перемещать их без трактора.
+Rouleau De Terrain S:
+Prix: 4.900€
+Taille: 3 x 1.5 mètres.
+Poids: 1580kg
+Largeur de travail: 3 mètres.
+Vitesse de travail: 17 km/h
+Puissance requise: 40 ch+
 
-Полевой каток S:
-Цена: 4.900 €
-Размер: 3 х 1,5 метров.
-Вес: 1580 кг
-Рабочая ширина: 3 метров.
-Максимум. рабочая скорость: 17 км / ч
-Требуемая мощность: 40 л.с.
+Rouleau De Terrain M:
+Prix: 6.900€
+Taille: 4 x 1.5 mètres.
+Poids: 1980kg
+Largeur de travail: 4 mètres.
+Vitesse de travail: 17 km/h
+Puissance requise: 50 ch+
 
-Полевой каток М:
-Цена: 6,900 €
-Размер: 4 х 1,5 метров.
-Вес: 1980 кг
-Рабочая ширина: 4 метров.
-Максимум. рабочая скорость: 17 км / ч
-Требуемая мощность: 50 л.с.
+Rouleau De Terrain L:
+Prix: 8.900€
+Taille: 6 x 1.5 mètres.
+Poids: 2580kg
+Largeur de travail: 6 mètres.
+Vitesse de travail: 17 km/h
+Puissance requise: 60 ch+]]></fr>
 
-Полевой каток L:
-Цена: 8,900 €
-Размер: 6 х 1,5 метров.
-Вес: 2580 кг
-Рабочая ширина: 6 метров.
-Максимум. рабочая скорость: 17 км / ч
-Требуемая мощность: 60 л.с.
-
-- Поддерживает «Seasons» и «Courseplay Six».
-
-Изменения 1.0.0.0:
-- Добавлена опция 6м
-- Поменял его на один элемент с параметрами размера
-- Добавлен l10n для имен ++
-Изменения 1.5.0.0:
-- Обновлен мод с большим количеством языков.
-Изменения 2.0.0.0:
-- Создал новый 3D-объект и поместил его в отдельную модель, чтобы старый был по-прежнему доступен.
-- Добавлено множество новых дизайнерских вещей.
-- Добавлены огни и предупреждающие знаки.
-- Создано множество вариантов конфигурации.
-- Добавлен итальянский перевод.
-- Новые барабаны и с отдельным выбором цвета.
-- Новый магазин фото и иконка мода.
-- Исправлено несколько неуместных UV на старой модели.]]></ru>
-        <pl><![CDATA[Wałki do usuwania pól i czyszczenia farmy mogą być również używane do usuwania śniegu.
-Dokładny i łatwy w obsłudze 3-punktowy zaczep. Są również zdalnie sterowane, jeśli kiedykolwiek chcesz je przenieść bez ciągnika.
-
-Wałek polowy S:
-Cena: 4.900 €
-Rozmiar: 3 x 1,5 metrów.
-Waga: 1580 kg
-Szerokość robocza: 3 metrów.
-Max. prędkość robocza: 17 km / h
-Wymagana moc: 40 KM+
-
-Wałek polowy M:
-Cena: 6.900 €
-Rozmiar: 4 x 1,5 metrów.
-Waga: 1980 kg
-Szerokość robocza: 4 metrów.
-Max. prędkość robocza: 17 km / h
-Wymagana moc: 50 KM+
-
-Wałek polowy L:
-Cena: 8.900 €
-Rozmiar: 6 x 1,5 metrów.
-Waga: 2580 kg
-Szerokość robocza: 6 metrów.
-Max. prędkość robocza: 17 km / h
-Wymagana moc: 60 KM+
-
-- Obsługuje „Seasons” i „Courseplay Six”.
-
-Dziennik zmian 1.0.0.0:
-- Dodano opcję 6m
-- Zmieniłem go na pojedynczy element z opcjami rozmiaru
-- Dodano l10n dla nazw ++
-Dziennik zmian 1.5.0.0:
-- Zaktualizowano mod o więcej języków.
-Dziennik zmian 2.0.0.0:
-- Utworzono nowy obiekt 3D i umieścił go w osobnym modelu, aby stary był nadal dostępny.
-- Dodano mnóstwo nowych rzeczy do projektowania.
-- Dodano światła i znaki ostrzegawcze.
-- Utworzono mnóstwo opcji konfiguracji.
-- Dodano tłumaczenie na włoski.
-- Nowe bębny i osobny wybór kolorów.
-- Nowe zdjęcia ze sklepu i ikona mod.
-- Naprawiono kilka źle ustawionych promieni UV na starym modelu.]]></pl>
-        <it><![CDATA[Rulli per la rimozione dei campi e per la pulizia della tua fattoria, possono anche essere utilizzati per rimuovere la neve.
+        <it><![CDATA[Rulli per tutti i tuoi lavori sul campo, disponibili nel normale rullo da campo e come rullo per prati, puoi anche usarli per pulire la tua fattoria.
 Attacher a 3 punti preciso e facile da usare. Sono anche telecomandati, se mai hai bisogno di spostarli senza un trattore.
 
 --Informazioni tecniche--
@@ -305,25 +148,89 @@ Dimensioni: 6 x 1,5 metri.
 Peso: 2580 kg
 Larghezza di lavoro: 6 metri.
 Max. velocità di lavoro: 17 km / h
-Potenza richiesta: 60 CV +
+Potenza richiesta: 60 CV +]]></it>
 
-- Supporta "Seasons" e "Courseplay Six".
+        <no><![CDATA[Vals trommler for alt markarbeid, tilgjengelig i vanlig Åkervals og som Gressvals, du kan også bruke dem til å rengjøre gården din.
+Kommer med nøyaktig og brukervennlig 3-punktsfeste. De er også fjernstyrte, hvis du noen gang trenger å flytte dem uten traktor.
 
-Elenco modifiche 1.0.0.0:
-- Aggiunta opzione 6m
-- Modificato in un singolo articolo con opzioni di dimensioni
-- Aggiunto l10n per i nomi ++
-Elenco modifiche 1.5.0.0:
-- Aggiornato il mod con più lingue.
-Log delle modifiche 2.0.0.0:
-- Creato un nuovo oggetto 3D e inseriscilo in un modello separato in modo che il vecchio sia ancora disponibile.
-- Aggiunti molti nuovi elementi di design.
-- Aggiunti luci e segnali di avvertimento.
-- Creato un sacco di opzioni di configurazione.
-- Aggiunta la traduzione italiana.
-- Nuovi tamburi e con scelta del colore separata.
-- Nuove foto dello store e icona mod.
-- Risolti alcuni UV fuori posto sul vecchio modello.]]></it>
+--Teknisk informasjon--
+Feltrulle S:
+Pris: 4.900 €
+Størrelse: 3 x 1,5 meter.
+Vekt: 1580 kg
+Arbeidsbredde: 3 meter.
+Maks. arbeidshastighet: 17 km/t
+Nødvendig effekt: 40 hk+
+
+Feltrulle M:
+Pris: 6.900 €
+Størrelse: 4 x 1,5 meter.
+Vekt: 1980 kg
+Arbeidsbredde: 4 meter.
+Maks. arbeidshastighet: 17 km/t
+Nødvendig effekt: 50 hk+
+
+Feltrulle L:
+Pris: 8.900 €
+Størrelse: 6 x 1,5 meter.
+Vekt: 2580 kg
+Arbeidsbredde: 6 meter.
+Maks. arbeidshastighet: 17 km/t
+Nødvendig effekt: 60 hk+]]></no>
+
+        <pl><![CDATA[Walce do wszystkich prac polowych, dostępne jako zwykły walec polowy i jako walec do użytków zielonych, można ich również używać do czyszczenia gospodarstwa.
+Dokładny i łatwy w obsłudze 3-punktowy zaczep. Są również zdalnie sterowane, jeśli kiedykolwiek chcesz je przenieść bez ciągnika.
+
+Wałek polowy S:
+Cena: 4.900 €
+Rozmiar: 3 x 1,5 metrów.
+Waga: 1580 kg
+Szerokość robocza: 3 metrów.
+Max. prędkość robocza: 17 km / h
+Wymagana moc: 40 KM+
+
+Wałek polowy M:
+Cena: 6.900 €
+Rozmiar: 4 x 1,5 metrów.
+Waga: 1980 kg
+Szerokość robocza: 4 metrów.
+Max. prędkość robocza: 17 km / h
+Wymagana moc: 50 KM+
+
+Wałek polowy L:
+Cena: 8.900 €
+Rozmiar: 6 x 1,5 metrów.
+Waga: 2580 kg
+Szerokość robocza: 6 metrów.
+Max. prędkość robocza: 17 km / h
+Wymagana moc: 60 KM+]]></pl>
+
+        <ru><![CDATA[Катки для всех ваших полевых работ, доступные в виде обычного полевого катка и пастбищного катка, вы также можете использовать их для уборки фермы.
+Точный и простой в использовании 3-х точечный атакующий. Они также имеют дистанционное управление, если вам когда-либо понадобится перемещать их без трактора.
+
+Полевой каток S:
+Цена: 4.900 €
+Размер: 3 х 1,5 метров.
+Вес: 1580 кг
+Рабочая ширина: 3 метров.
+Максимум. рабочая скорость: 17 км / ч
+Требуемая мощность: 40 л.с.
+
+Полевой каток М:
+Цена: 6,900 €
+Размер: 4 х 1,5 метров.
+Вес: 1980 кг
+Рабочая ширина: 4 метров.
+Максимум. рабочая скорость: 17 км / ч
+Требуемая мощность: 50 л.с.
+
+Полевой каток L:
+Цена: 8,900 €
+Размер: 6 х 1,5 метров.
+Вес: 2580 кг
+Рабочая ширина: 6 метров.
+Максимум. рабочая скорость: 17 км / ч
+Требуемая мощность: 60 л.с.]]></ru>
     </description>
     <iconFilename>EDGERollerPack_icon.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -344,74 +251,82 @@ Log delle modifiche 2.0.0.0:
 		<text name="config_drumColor">
 			<en>Drum color</en>
 			<de>Trommelfarbe</de>
-			<fr>Couleur du tambour</fr>
             <es>Color del tambor</es>
-            <ru>Цвет барабана</ru>
-            <pl>Kolor bębna</pl>
+			<fr>Couleur du tambour</fr>
             <it>Colore del tamburo</it>
+			<no>Trommer farge</no>
+            <pl>Kolor bębna</pl>
+            <ru>Цвет барабана</ru>
 		</text>
 		<text name="function_EDGEroller">
-			<en>Rollers can remove fields as well as cleaning an area for wheel tracks, they can also be used to remove snow.</en>
-			<de>Walzen können Felder entfernen und einen Bereich für Radspuren reinigen, Sie können auch zum Entfernen von Schnee verwendet werden.</de>
-			<fr>Les rouleaux peuvent enlever les champs et nettoyer une zone pour les tracs de roues, ils peuvent également être utilisés pour enlever la neige.</fr>
-            <es>Los rodillos pueden eliminar campos, así como limpiar un área para los tracs de ruedas, También se pueden utilizar para quitar la nieve.</es>
-            <ru>Ролики могут удалить поля, а также очистить область для колесных дорожек, они также могут быть использованы для удаления снега.</ru>
-            <pl>Wałki mogą usuwać pola, a także czyścić obszar śladów kół, mogą być również używane do usuwania śniegu.</pl>
-            <it>I rulli possono rimuovere i campi e pulire un'area per le piste, possono anche essere usati per rimuovere la neve.</it>
+			<en>Rollers can be used to prepare your fields, Creating a seedbed perfect for sowing, Then again after sowing to improve crop growth. Grassland rollers can be used on grasslands to improve growth, as well as improving nutrients in the soil. You can also use them for cleaning wheel tracks and dirt from your farm yard.</en>
+			<de>Walzen können verwendet werden, um Ihre Felder vorzubereiten, ein perfektes Saatbett für die Aussaat zu schaffen und nach der Aussaat das Pflanzenwachstum zu verbessern. Grünlandwalzen können auf Grünland eingesetzt werden, um das Wachstum zu verbessern und die Nährstoffe im Boden zu verbessern. Sie können damit auch Radspuren und Schmutz auf Ihrem Hof entfernen.</de>
+            <es>Los rodillos se pueden usar para preparar sus campos, creando un semillero perfecto para la siembra, y luego nuevamente después de la siembra para mejorar el crecimiento de los cultivos. Los rodillos de pastizales se pueden usar en pastizales para mejorar el crecimiento, así como para mejorar los nutrientes en el suelo. También puede usarlos para limpiar las huellas de las ruedas y la suciedad de su granja.</es>
+			<fr>Les rouleaux peuvent être utilisés pour préparer vos champs, créer un lit de semence parfait pour le semis, puis à nouveau après le semis pour améliorer la croissance des cultures. Les rouleaux de prairie peuvent être utilisés sur les prairies pour améliorer la croissance, ainsi que pour améliorer les nutriments dans le sol. Vous pouvez également les utiliser pour nettoyer les traces de roues et la saleté de votre cour de ferme.</fr>
+            <it>I rulli possono essere utilizzati per preparare i tuoi campi, creando un letto di semina perfetto per la semina, poi di nuovo dopo la semina per migliorare la crescita del raccolto. I rulli per prati possono essere utilizzati sui prati per migliorare la crescita, oltre a migliorare i nutrienti nel terreno. Puoi anche usarli per pulire le tracce delle ruote e lo sporco dal cortile della tua fattoria.</it>
+			<no>Valser kan brukes til å forberede åkrene dine, lage et såbed perfekt for såing, så igjen etter såing for å forbedre avlingsveksten. Gressvalser kan brukes på gressletter for å forbedre veksten, samt forbedre næringsstoffene i jorda. Du kan også bruke dem til å rense hjulspor og skitt fra gårdstunet ditt.</no>
+            <pl>Wały można wykorzystać do przygotowania pól, stworzenia podłoża pod siew idealnego do siewu, a następnie ponownie po siewie w celu poprawy wzrostu plonów. Wały do użytków zielonych można stosować na użytkach zielonych w celu poprawy wzrostu, a także poprawy składników odżywczych w glebie. Możesz ich również użyć do czyszczenia śladów kół i brudu z podwórka.</pl>
+            <ru>Катки можно использовать для подготовки полей, создания идеального семенного ложа для посева, а затем еще раз после посева для улучшения роста урожая. Луговые катки можно использовать на пастбищах для улучшения роста, а также для улучшения содержания питательных веществ в почве. Вы также можете использовать их для очистки следов от колес и грязи с фермы.</ru>
 		</text>
 		<text name="shopItem_EDGEroller">
 			<en>Field Roller</en>
 			<de>Feldwalze</de>
-			<fr>Rouleau De Terrain</fr>
             <es>Rodillo de campo</es>
-            <ru>Полевой каток</ru>
-            <pl>Wałek polowy</pl>
+			<fr>Rouleau De Terrain</fr>
             <it>Rullo Di Campo</it>
+			<no>Åker Vals</no>
+            <pl>Wałek polowy</pl>
+            <ru>Полевой каток</ru>
 		</text>
 		<text name="shopItem_EDGErollerPro">
 			<en>Field Roller Pro</en>
 			<de>Feldwalze Pro</de>
-			<fr>Rouleau De Terrain Pro</fr>
             <es>Rodillo de campo Pro</es>
-            <ru>Полевой каток Pro</ru>
-            <pl>Wałek polowy Pro</pl>
+			<fr>Rouleau De Terrain Pro</fr>
             <it>Rullo Di Campo Pro</it>
+			<no>Åker Vals Proff</no>
+            <pl>Wałek polowy Pro</pl>
+            <ru>Полевой каток Pro</ru>
 		</text>
 		<text name="Config_Size">
 			<en>Size</en>
 			<de>Größe</de>
-			<fr>Taille</fr>
             <es>Tamaño</es>
-            <ru>Pазмер</ru>
-            <pl>Rozmiar</pl>
+			<fr>Taille</fr>
             <it>Dimensione</it>
+			<no>Størrelse</no>
+            <pl>Rozmiar</pl>
+            <ru>Pазмер</ru>
 		</text>
 		<text name="Config_4M">
 			<en>4 Meters</en>
 			<de>4 Meter</de>
-			<fr>4 Mètres</fr>
             <es>4 Metros</es>
-            <ru>4 Mетра</ru>
-            <pl>4 Metry</pl>
+			<fr>4 Mètres</fr>
             <it>4 Metri</it>
+			<no>4 Meter</no>
+            <pl>4 Metry</pl>
+            <ru>4 Mетра</ru>
 		</text>
 		<text name="Config_3M">
 			<en>3 Meters</en>
 			<de>3 Meter</de>
-			<fr>3 Mètres</fr>
             <es>3 Metros</es>
-            <ru>3 Mетра</ru>
-            <pl>3 Metry</pl>
+			<fr>3 Mètres</fr>
             <it>3 Metri</it>
+			<no>3 Meter</no>
+            <pl>3 Metry</pl>
+            <ru>3 Mетра</ru>
 		</text>
 		<text name="Config_6M">
 			<en>6 Meters</en>
 			<de>6 Meter</de>
-			<fr>6 Mètres</fr>
             <es>6 Metros</es>
-            <ru>6 Mетра</ru>
-            <pl>6 Metry</pl>
+			<fr>6 Mètres</fr>
             <it>6 Metri</it>
+			<no>6 Meter</no>
+            <pl>6 Metry</pl>
+            <ru>6 Mетра</ru>
 		</text>
 	</l10n>
 	<brands>

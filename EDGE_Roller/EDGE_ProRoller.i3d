@@ -261,43 +261,43 @@
             <TransformGroup name="aiMarkerLeft" translation="1.5 0 0" nodeId="212"/>
             <TransformGroup name="aiMarkerRight" translation="-1.5 0 0" nodeId="213"/>
             <TransformGroup name="aiMarkerBack" translation="0 0 -0.55" nodeId="214"/>
-            <TransformGroup name="aiCollisionNode" translation="0 0 -1" nodeId="241"/>
+            <TransformGroup name="aiCollisionNode" translation="0 0 -1" nodeId="215"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="Collisions" nodeId="215">
-          <Shape shapeId="63" name="EDGE_Roller_M" visibility="false" compoundChild="true" collisionMask="8194" density="0.109" clipDistance="300" nodeId="216" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <Shape shapeId="64" name="EDGE_Roller_L" visibility="false" compoundChild="true" collisionMask="8194" density="0.181" clipDistance="300" nodeId="217" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <TransformGroup name="aiCollisons" nodeId="218">
-            <Shape shapeId="8" name="aiCollisionTriggerM" translation="0 0.241 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1056768" nodeId="219" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-            <Shape shapeId="7" name="aiCollisionTriggerS" translation="0 0.241 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1056768" nodeId="220" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-            <Shape shapeId="9" name="aiCollisionTriggerL" translation="0 0.241 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1056768" nodeId="221" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <TransformGroup name="Collisions" nodeId="216">
+          <Shape shapeId="63" name="EDGE_Roller_M" visibility="false" compoundChild="true" collisionMask="8194" density="0.109" clipDistance="300" nodeId="217" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="64" name="EDGE_Roller_L" visibility="false" compoundChild="true" collisionMask="8194" density="0.181" clipDistance="300" nodeId="218" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="aiCollisons" nodeId="219">
+            <Shape shapeId="8" name="aiCollisionTriggerM" translation="0 0.241 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1056768" nodeId="220" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="7" name="aiCollisionTriggerS" translation="0 0.241 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1056768" nodeId="221" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="9" name="aiCollisionTriggerL" translation="0 0.241 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1056768" nodeId="222" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="connectionHoses" translation="9.76408e-08 0.128338 -2.23376" rotation="0 -90 0" nodeId="222">
-          <TransformGroup name="hydraulicIn01" translation="2.78942 1.05099 -0.00139498" rotation="-90 83.3727 -90" nodeId="223">
-            <Shape shapeId="65" name="hydraulicIn03_detached" translation="-0.0110424 -0.0875606 -2.78942" rotation="0 -90 0" clipDistance="300" nodeId="224" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="connectionHoses" translation="9.76408e-08 0.128338 -2.23376" rotation="0 -90 0" nodeId="223">
+          <TransformGroup name="hydraulicIn01" translation="2.78942 1.05099 -0.00139498" rotation="-90 83.3727 -90" nodeId="224">
+            <Shape shapeId="65" name="hydraulicIn03_detached" translation="-0.0110424 -0.0875606 -2.78942" rotation="0 -90 0" clipDistance="300" nodeId="225" materialIds="8" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
-          <TransformGroup name="hydraulicOut01" translation="2.79097 1.05092 0.016323" rotation="-90 79.6619 -90" nodeId="225">
-            <Shape shapeId="66" name="hydraulicOut03_detached" translation="0.0114981 -0.0875606 -2.79097" rotation="0 -90 0" clipDistance="300" nodeId="226" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <TransformGroup name="hydraulicOut01" translation="2.79097 1.05092 0.016323" rotation="-90 79.6619 -90" nodeId="226">
+            <Shape shapeId="66" name="hydraulicOut03_detached" translation="0.0114981 -0.0875606 -2.79097" rotation="0 -90 0" clipDistance="300" nodeId="227" materialIds="8" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
-          <TransformGroup name="hydraulicIn02" translation="2.78661 1.07294 0.00144334" rotation="90 84.149 90" nodeId="227">
-            <Shape shapeId="67" name="hydraulicIn02_detached" translation="0.0110426 -0.122876 -2.78661" rotation="0 -90 0" clipDistance="300" nodeId="228" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <TransformGroup name="hydraulicIn02" translation="2.78661 1.07294 0.00144334" rotation="90 84.149 90" nodeId="228">
+            <Shape shapeId="67" name="hydraulicIn02_detached" translation="0.0110426 -0.122876 -2.78661" rotation="0 -90 0" clipDistance="300" nodeId="229" materialIds="8" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
-          <TransformGroup name="hydraulicOut02" translation="2.79097 1.08458 -0.00263703" rotation="-90 88.2579 -90" nodeId="229">
-            <Shape shapeId="68" name="hydraulicOut02_detached" translation="-0.0114979 -0.124493 -2.79097" rotation="0 -90 0" clipDistance="300" nodeId="230" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <TransformGroup name="hydraulicOut02" translation="2.79097 1.08458 -0.00263703" rotation="-90 88.2579 -90" nodeId="230">
+            <Shape shapeId="68" name="hydraulicOut02_detached" translation="-0.0114979 -0.124493 -2.79097" rotation="0 -90 0" clipDistance="300" nodeId="231" materialIds="8" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
-          <Shape shapeId="69" name="hoses01" translation="2.191 0.897112 1.85873e-09" rotation="-0 90 0" clipDistance="200" nodeId="231" materialIds="8" castsShadows="true" receiveShadows="true">
-            <Shape shapeId="70" name="hoseHolders01" translation="5.82933e-05 0.00399995 0.054645" clipDistance="200" nodeId="232" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="69" name="hoses01" translation="2.191 0.897112 1.85873e-09" rotation="-0 90 0" clipDistance="200" nodeId="232" materialIds="8" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="70" name="hoseHolders01" translation="5.82933e-05 0.00399995 0.054645" clipDistance="200" nodeId="233" materialIds="7" castsShadows="true" receiveShadows="true"/>
           </Shape>
         </TransformGroup>
-        <TransformGroup name="remoteControl" translation="-9.99201e-16 0 0" nodeId="233">
-          <Camera name="persp" translation="-0.281694 3.88989 -3.89414" rotation="137.602 0.137537 -180" visibility="false" nodeId="234" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
-          <TransformGroup name="exitPoint" translation="-2.5 0 1" scale="0.5 0.5 0.5" nodeId="235"/>
-          <TransformGroup name="cameraRot" translation="9.99201e-16 0.925 0" rotation="156 -0 -180" nodeId="236">
-            <Camera name="camera" translation="0 0 8" nodeId="237" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
+        <TransformGroup name="remoteControl" translation="-9.99201e-16 0 0" nodeId="234">
+          <Camera name="persp" translation="-0.440654 4.22407 -6.2643" rotation="146.196 -5.01889 180" visibility="false" nodeId="235" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+          <TransformGroup name="exitPoint" translation="-2.5 0 1" scale="0.5 0.5 0.5" nodeId="236"/>
+          <TransformGroup name="cameraRot" translation="9.99201e-16 0.925 0" rotation="156 -0 -180" nodeId="237">
+            <Camera name="camera" translation="0 0 8" nodeId="238" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
           </TransformGroup>
-          <Camera name="reverseCamera" translation="1.9984e-15 0.7 -0.5" nodeId="238" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
-          <TransformGroup name="enterPoint" translation="0 0 -1" nodeId="239"/>
+          <Camera name="reverseCamera" translation="1.9984e-15 0.7 -0.5" nodeId="239" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+          <TransformGroup name="enterPoint" translation="0 0 -1" nodeId="240"/>
         </TransformGroup>
       </Shape>
   </Scene>

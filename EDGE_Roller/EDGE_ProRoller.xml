@@ -169,6 +169,8 @@
 				<objectChange node="bolt_DecalLeft01" translationActive="0.495 0.01 -0.005" translationInactive="0 0.01 -0.005"/>
 				<objectChange node="bolt_DecalRight01" translationActive="-0.495 0.01 -0.005" translationInactive="0 0.01 -0.005"/>
                 <objectChange node="EDGE_RollerPro" massActive="1980" />
+				<objectChange node="dustEmitterShape" scaleActive="1.32 1 1" scaleInactive="1 1 1"/>
+				<objectChange node="soilEmitShape" scaleActive="1.32 1 1" scaleInactive="1 1 1"/>
             </motorConfiguration>
 			<motorConfiguration name="$l10n_Config_6M" price="4000" workingWidth="6"  hp="20" showOnHud="false">
                 <motor torqueScale="0.45"/>
@@ -206,6 +208,8 @@
 				<objectChange node="bolt_DecalLeft01" translationActive="1.53 0.01 -0.005" translationInactive="0 0.01 -0.005"/>
 				<objectChange node="bolt_DecalRight01" translationActive="-1.53 0.01 -0.005" translationInactive="0 0.01 -0.005"/>
                 <objectChange node="EDGE_RollerPro" massActive="2580" />
+				<objectChange node="dustEmitterShape" scaleActive="2 1 1" scaleInactive="1 1 1"/>
+				<objectChange node="soilEmitShape" scaleActive="2 1 1" scaleInactive="1 1 1"/>
             </motorConfiguration>
         </motorConfigurations>
         <differentialConfigurations>
@@ -332,11 +336,11 @@
             <part node="signRot02" startTime="0" endTime="2.5" startRot="0 -90 0" endRot="0 0 0"/>
         </animation>
         <sounds>
-            <hydraulic template="DEFAULT_HYDRAULIC_SOUND" linkNode="signNode01">
+            <hydraulic template="defaultHydraulicSound" linkNode="signNode01">
                 <volume indoor="0.35" outdoor="0.8"/>
                 <pitch outdoor="0.8"/>
             </hydraulic>
-            <hydraulic template="DEFAULT_HYDRAULIC_SOUND" linkNode="signNode02">
+            <hydraulic template="defaultHydraulicSound" linkNode="signNode02">
                 <volume indoor="0.35" outdoor="0.8"/>
                 <pitch outdoor="0.8"/>
             </hydraulic>
@@ -360,6 +364,22 @@
             </rollerConfiguration>
         </rollerConfigurations>
     </roller>
+    <workParticles>
+        <effect workAreaIndex="1" activeDirection="1">
+            <effectNode effectClass="CultivatorMotionPathEffect" effectType="CULTIVATOR" linkNode="soilEffect">
+                <motionPathEffect textureFilename="$data/vehicles/dalbo/powerRoll1230/rollerEffect01Array.dds" numRows="20" rowLength="18" density="1" densityScale="0.5"/>
+            </effectNode>
+        </effect>
+        <effect workAreaIndex="1" activeDirection="-1">
+            <effectNode effectClass="CultivatorMotionPathEffect" effectType="CULTIVATOR" linkNode="depthNode">
+                <motionPathEffect textureFilename="$data/vehicles/dalbo/powerRoll1230/rollerEffect01Array.dds" numRows="20" rowLength="18" density="1" densityScale="0.5"/>
+            </effectNode>
+        </effect>
+        <particle>
+            <node node="dustEmitterShape" refNodeIndex="1" particleType="SOIL_SMOKE" speedThreshold="1"  emitCountScale="2.5"/>
+            <node node="soilEmitShape" refNodeIndex="2" particleType="SOIL_SMOKE" speedThreshold="1"  emitCountScale="2.5"/>
+        </particle>
+    </workParticles>
     <foliageBending>
         <bendingNode minX="-2.0" maxX="2.0" minZ="-0.5" maxZ="0.5" yOffset="0.46"/>
     </foliageBending>
@@ -875,5 +895,10 @@
 		<i3dMapping id="EDGERollerL" node="0>7|1"/>
 		<i3dMapping id="wheels" node="0>0"/>
 		<i3dMapping id="SupportL" node="0>2|3"/>
+		<i3dMapping id="soilEmitShape" node="0>4|0|0"/>
+		<i3dMapping id="dustEmitterShape" node="0>4|0|1"/>
+		<i3dMapping id="chunkEmitterShape" node="0>4|0|2"/>
+		<i3dMapping id="soilEffect" node="0>4|0"/>
+		<i3dMapping id="depthNode" node="0>4|1"/>
     </i3dMappings>
 </vehicle>

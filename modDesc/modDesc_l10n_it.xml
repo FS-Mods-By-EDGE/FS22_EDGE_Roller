@@ -29,6 +29,7 @@
         <text name="config_decalDesign"			text="Oro decalcomanie"/>
         <text name="config_decal"				text="Predefinita decalcomanie"/>
         <text name="configuration_decal"		text="Design della decalcomania"/>
+        <text name="config_grass"		        text="Rullo del pascolo"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER OPACA"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ORO OPACA"/>

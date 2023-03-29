@@ -29,6 +29,7 @@
         <text name="config_decalDesign"			text="Or Décalcomanies"/>
         <text name="config_decal"				text="Défaut Décalcomanies"/>
         <text name="configuration_decal"		text="Conception de décalcomanie"/>
+        <text name="config_grass"		        text="Rouleau des prairies"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MAT"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE OR MAT"/>

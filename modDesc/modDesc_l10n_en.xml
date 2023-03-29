@@ -29,6 +29,7 @@
         <text name="config_decalDesign"			text="Gold Decals"/>
         <text name="config_decal"				text="Default Decals"/>
         <text name="configuration_decal"		text="Decal Design"/>
+        <text name="config_grass"		        text="Grassland Roller"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE GOLD MATTE"/>

@@ -29,6 +29,7 @@
         <text name="config_decalDesign" text="Goldene Aufkleber"/>
         <text name="config_decal" text="Standard Aufkleber"/>
         <text name="configuration_decal" text="Aufkleber Design"/>
+        <text name="config_grass" text="Grünlandwalze"/>
 
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" text="IT RUNNER MATT"/>

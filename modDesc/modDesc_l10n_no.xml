@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+	<texts>
+        <text name="configuration_Design"		text="Lakkerte Detaljer"/>
+        <text name="configuration_Painted"		text="Lakkert"/>
+        <text name="action_foldWARNING"			text="Legg Ned Varsel Skilt"/>
+        <text name="action_unfoldWARNING"		text="Vis Varsel Skilt"/>
+        <text name="configuration_warningSigns"	text="Varsel Skilt"/>
+        <text name="config_warningSigns"		text="Bevegelige Varsel Skilt"/>
+        <text name="config_noWarningSigns"		text="Uten Varsel Skilt"/>
+        <text name="configuration_attacher"		text="Feste Mekanisme"/>
+        <text name="config_attacherNewDesign"	text="Ny Type Med Lakkerte Detaljer"/>
+        <text name="config_attacherNewPaint"	text="Ny Type"/>
+        <text name="config_attacherDesign"		text="Standard Med Lakkerte Detaljer"/>
+        <text name="config_attacherPaint"		text="Standard Painted"/>
+        <text name="configuration_drum"			text="Trommel"/>
+        <text name="config_customDrum"			text="Design"/>
+        <text name="config_liteDrum"			text="Lite"/>
+        <text name="config_proDrum"				text="Pro"/>
+        <text name="config_roughDrum"			text="Grow"/>
+        <text name="config_lights"				text="Lys"/>
+        <text name="config_beacon"				text="Varsel Lys"/>
+        <text name="config_work"				text="Arbeids Lys"/>
+        <text name="config_noLight"				text="Ingen Lys"/>
+        <text name="config_beaconWork"			text="Varsel &amp; Arbeids Lys"/>
+        <text name="config_decalWhite"			text="Hvite Markeringer"/>
+        <text name="config_decalBlack"			text="Svarte Markeringer"/>
+        <text name="config_decalDesign"			text="Gull Markeringer"/>
+        <text name="config_decal"				text="Standard Markeringer"/>
+        <text name="configuration_decal"		text="Markerings Design"/>
+        <text name="config_grass"		        text="Gress Trommel"/>
+			<!--Colors-->
+        <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATT"/>
+        <text name="color_EDGEGOLDMATTE" 		text="EDGE GOLD MATT"/>
+        <text name="color_EDGESILVERMATTE" 		text="EDGE SILVER MATT"/>
+        <text name="color_CASEIHMATTE" 			text="CASE IH MATT"/>
+        <text name="color_NEWHOLLANDMATTE" 		text="NEW HOLLAND MATT"/>
+        <text name="color_KRONEMATTE" 			text="KRONE MATT"/>
+        <text name="color_YELLOWMATTE" 			text="ELECTRIC YELLOW MATT"/>
+        <text name="color_STARAMATTE" 			text="STARA MATT"/>
+        <text name="color_LELYMATTE" 			text="LELY MATT"/>
+        <text name="color_WHITEMATTE" 			text="GHOST WHITE MATT"/>
+        <text name="color_PURPLEMATTE" 			text="PEARL PURPLE MATT"/>
+        <text name="color_DARKBLUEMATTE" 		text="ROYAL BLUE MATT"/>
+        <text name="color_JOHNDEEREMATTE" 		text="JOHN DEERE MATT"/>
+        <text name="color_PINKMATTE" 			text="BARBIE PINK MATT"/>
+
+		<text name="color_ITRUNNERCHROME" 		text="IT RUNNER KROM"/>
+        <text name="color_EDGEGOLDCHROME" 		text="EDGE GOLD KROM"/>
+        <text name="color_EDGESILVERCHROME" 	text="EDGE SILVER KROM"/>
+        <text name="color_CASEIHCHROME" 		text="CASE IH KROM"/>
+        <text name="color_NEWHOLLANDCHROME" 	text="NEW HOLLAND KROM"/>
+        <text name="color_KRONECHROME" 			text="KRONE KROM"/>
+        <text name="color_YELLOWCHROME" 		text="ELECTRIC YELLOW KROM"/>
+        <text name="color_STARACHROME" 			text="STARA KROM"/>
+        <text name="color_LELYCHROME" 			text="LELY KROM"/>
+        <text name="color_WHITECHROME" 			text="GHOST WHITE KROM"/>
+        <text name="color_PURPLECHROME" 		text="PEARL PURPLE KROM"/>
+        <text name="color_DARKBLUECHROME" 		text="ROYAL BLUE KROM"/>
+        <text name="color_JOHNDEERECHROME" 		text="JOHN DEERE KROM"/>
+        <text name="color_PINKCHROME" 			text="BARBIE PINK KROM"/>
+
+		<text name="color_ITRUNNERMETALLIC" 	text="IT RUNNER METALL GLANS"/>
+        <text name="color_EDGEGOLDMETALLIC" 	text="EDGE GOLD METALL GLANS"/>
+        <text name="color_EDGESILVERMETALLIC" 	text="EDGE SILVER METALL GLANS"/>
+        <text name="color_CASEIHMETALLIC" 		text="CASE IH METALL GLANS"/>
+        <text name="color_NEWHOLLANDMETALLIC" 	text="NEW HOLLAND METALL GLANS"/>
+        <text name="color_KRONEMETALLIC" 		text="KRONE METALL GLANS"/>
+        <text name="color_YELLOWMETALLIC" 		text="ELECTRIC YELLOW METALL GLANS"/>
+        <text name="color_STARAMETALLIC" 		text="STARA METALL GLANS"/>
+        <text name="color_LELYMETALLIC" 		text="LELY METALL GLANS"/>
+        <text name="color_WHITEMETALLIC" 		text="GHOST WHITE METALL GLANS"/>
+        <text name="color_PURPLEMETALLIC" 		text="PEARL PURPLE METALL GLANS"/>
+        <text name="color_DARKBLUEMETALLIC" 	text="ROYAL BLUE METALL GLANS"/>
+        <text name="color_JOHNDEEREMETALLIC" 	text="JOHN DEERE METALL GLANS"/>
+        <text name="color_PINKMETALLIC" 		text="BARBIE PINK METALL GLANS"/>
+
+		<text name="color_ITRUNNER" 			text="IT RUNNER "/>
+        <text name="color_EDGEGOLD" 			text="EDGE GULL "/>
+        <text name="color_EDGESILVER" 			text="EDGE SØLV "/>
+        <text name="color_RED" 					text="CRIMSON GLORY"/>
+        <text name="color_KOBALT" 				text="KOBALT"/>
+        <text name="color_GREEN" 				text="KELLY GREEN"/>
+        <text name="color_YELLOW" 				text="ELECTRIC YELLOW"/>
+        <text name="color_ORANGE" 				text="BLAZE ORANGE"/>
+        <text name="color_LELY" 				text="LELY"/>
+        <text name="color_KRONE" 				text="KRONE"/>
+        <text name="color_ALICEBLUE" 			text="ALICE BLUE"/>
+        <text name="color_PURPLE" 				text="PEARL PURPLE"/>
+        <text name="color_DARKGREY"				text="SMOKY BLACK"/>
+        <text name="color_NEWHOLLAND" 			text="NEW HOLLAND"/>
+        <text name="color_PINK" 				text="BARBIE PINK"/>
+	</texts>
+</l10n>

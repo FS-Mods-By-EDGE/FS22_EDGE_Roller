@@ -29,6 +29,7 @@
         <text name="config_decalDesign"			text="Золотые наклейки"/>
         <text name="config_decal"				text="Декали по умолчанию"/>
         <text name="configuration_decal"		text="Декаль Дизайн"/>
+        <text name="config_grass"		        text="Пастбищный каток"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER МАТОВЫЙ"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ЗОЛОТО МАТОВЫЙ"/>

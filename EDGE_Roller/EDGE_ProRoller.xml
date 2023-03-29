@@ -155,6 +155,8 @@
 				<objectChange node="rightSide" translationActive="-2.053 0.24 -0.305" translationInactive="-1.557 0.24 -0.305"/>
 				<objectChange node="light01" translationActive="1.9 -0.105 0.465" translationInactive="1.4 -0.105 0.465"/>
 				<objectChange node="light02" translationActive="-1.9 -0.105 0.465" translationInactive="-1.4 -0.105 0.465"/>
+				<objectChange node="aiMarkerLeft" translationActive="2 0 0" translationInactive="1.5 0 0"/>
+				<objectChange node="aiMarkerRight" translationActive="-2 0 0" translationInactive="-1.5 0 0"/>
 				<objectChange node="reflectorDecal01" visibilityActive="true"/>
 				<objectChange node="sideMarkerL01" visibilityActive="true"/>
 				<objectChange node="sideMarkerL02" visibilityActive="true"/>
@@ -187,6 +189,8 @@
 				<objectChange node="rightSide" translationActive="-3.088 0.24 -0.305" translationInactive="-1.557 0.24 -0.305"/>
 				<objectChange node="light01" translationActive="2.9 -0.105 0.465" translationInactive="1.4 -0.105 0.465"/>
 				<objectChange node="light02" translationActive="-2.9 -0.105 0.465" translationInactive="-1.4 -0.105 0.465"/>
+				<objectChange node="aiMarkerLeft" translationActive="3 0 0" translationInactive="1.5 0 0"/>
+				<objectChange node="aiMarkerRight" translationActive="-3 0 0" translationInactive="-1.5 0 0"/>
 				<objectChange node="reflectorDecal01" visibilityActive="true"/>
 				<objectChange node="reflectorDecal02" visibilityActive="true" visibilityInactive="false"/>
 				<objectChange node="reflectorDecal03" visibilityActive="true" visibilityInactive="false"/>
@@ -212,6 +216,7 @@
             </differentialConfiguration>
         </differentialConfigurations>
     </motorized>
+    <powerConsumer forceNode="EDGE_RollerPro" maxForce="6" />
     <attachable>
         <inputAttacherJoints>
             <inputAttacherJoint node="attacherJoint" jointType="implement" topReferenceNode="topReferenceNode" forceSelectionOnAttach="false">
@@ -278,9 +283,10 @@
         <groundReferenceNode node="groundReferenceNode" threshold="0.3" chargeValue="1"/>
     </groundReferenceNodes>
     <workAreas>
-        <workArea type="roller" functionName="processRollerArea" disableBackwards="false">
+        <workArea type="roller" functionName="processRollerArea" disableBackwards="false" needsSetIsTurnedOn="false">
             <area startNode="workAreaStart" widthNode="workAreaWidth" heightNode="workAreaHeight"/>
             <groundReferenceNode index="1"/>
+            <onlyActiveWhenLowered value="true"/>
         </workArea>
     </workAreas>
     <lights>
@@ -290,16 +296,16 @@
         <sharedLight linkNode="worklight02" filename="$data/shared/assets/lights/hella/hellaWorkingLightSquare_02_back.xml">
             <rotationNode name="rotationNode1" rotation="15 0 0"/>
         </sharedLight>
-        <sharedLight linkNode="sideMarker_WhiteL01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
-        <sharedLight linkNode="sideMarker_WhiteR01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml"/>
         <sharedLight linkNode="sideMarkerL01" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" scale="1.2 0.6 1"/>
         <sharedLight linkNode="sideMarkerR01" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" scale="1.2 0.6 1"/>
         <sharedLight linkNode="sideMarkerL02" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" scale="1.2 0.6 1"/>
         <sharedLight linkNode="sideMarkerR02" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" scale="1.2 0.6 1"/>
         <sharedLight linkNode="sideMarkerL03" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" scale="1.2 0.6 1"/>
         <sharedLight linkNode="sideMarkerR03" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" scale="1.2 0.6 1"/>
-        <sharedLight linkNode="light01"       filename="$data/shared/assets/lights/lizard/frontLightRectangle_01.xml"/>
-        <sharedLight linkNode="light02"       filename="$data/shared/assets/lights/lizard/frontLightRectangle_01.xml"/>
+        <sharedLight linkNode="light01"       filename="$data/shared/assets/lights/lizard/frontLight02.xml"/>
+        <sharedLight linkNode="light02"       filename="$data/shared/assets/lights/lizard/frontLight02.xml"/>
         <realLights>
             <high>
                 <light node="defaultLightsHigh1" lightTypes="0"/>
@@ -336,10 +342,23 @@
             </hydraulic>
         </sounds>
     </animations>
-    <roller onlyActiveWhenLowered="true">
-        <sounds>
-            <work template="MEADOW_ROLLER_WORK"/>
-        </sounds>
+    <roller>
+        <rollerConfigurations>
+            <rollerConfiguration name="$l10n_typeDesc_roller">
+                <roller isSoilRoller="true" isGrassRoller="false" onlyActiveWhenLowered="true">
+                    <sounds>
+                        <work template="MEADOW_ROLLER_WORK" volumeScale="1"/>
+                    </sounds>
+                </roller>
+            </rollerConfiguration>
+            <rollerConfiguration price="1500" name="$l10n_config_grass">
+                <roller isSoilRoller="true" isGrassRoller="true" onlyActiveWhenLowered="true">
+                    <sounds>
+                        <work template="MEADOW_ROLLER_WORK" volumeScale="1"/>
+                    </sounds>
+                </roller>
+            </rollerConfiguration>
+        </rollerConfigurations>
     </roller>
     <foliageBending>
         <bendingNode minX="-2.0" maxX="2.0" minZ="-0.5" maxZ="0.5" yOffset="0.46"/>
@@ -719,9 +738,17 @@
 		<rimColorConfiguration name="$l10n_color_NEWHOLLAND" 	        color="NEWHOLLAND_YELLOW1" 	material="0"/>
         <rimColorConfiguration name="$l10n_color_PINK"                  color="0.880 0.130 0.540 1" material="0"/>
     </rimColorConfigurations>
+    <ai>
+        <needsLowering value="true" />
+        <needsRootAlignment value="false"/>
+        <areaMarkers leftNode="aiMarkerLeft" rightNode="aiMarkerRight" backNode="aiMarkerBack" />
+        <collisionTrigger node="aiCollisionNode" width="3" height="2"/>
+        <agentAttachment width="2.5" height="3" length="1" lengthOffset="0"/>
+    </ai>
 	<wearable wearDuration="1000" workMultiplier="5" fieldMultiplier="2"/>
     <washable dirtDuration="30" washDuration="1" workMultiplier="10" fieldMultiplier="20"/>
     <i3dMappings>
+        <i3dMapping id="aiCollisionNode" node="0>6|0|3"/>
         <i3dMapping id="wheelDrum" node="0>0|0"/>
         <i3dMapping id="wheelLeft" node="0>0|1"/>
         <i3dMapping id="wheelRight" node="0>0|2"/>

@@ -29,6 +29,7 @@
         <text name="config_decalDesign"			text="Oro Calcomanías"/>
         <text name="config_decal"				text="Defecto Calcomanías"/>
         <text name="configuration_decal"		text="Diseño de calcomanías"/>
+        <text name="config_grass"		        text="Rodillo de pastizales"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="MATE IT RUNNER "/>
         <text name="color_EDGEGOLDMATTE" 		text="MATE EDGE ORO "/>

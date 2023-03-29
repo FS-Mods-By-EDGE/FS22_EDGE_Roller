@@ -29,6 +29,7 @@
         <text name="config_decalDesign"			text="Złote naklejki"/>
         <text name="config_decal"				text="Domyślne naklejki"/>
         <text name="configuration_decal"		text="Projekt kalkomanii"/>
+        <text name="config_grass"		        text="Walec użytków zielonych"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ZŁOTO MATTE"/>
